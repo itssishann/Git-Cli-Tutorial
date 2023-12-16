@@ -3,6 +3,6 @@ const sum=(n)=>{
     for(let i=1;i<=n;i++){
     ans +=i;
     }
-    return ans;
+    console.log(ans)
 }
-console.log(sum(100))
+sum(100)
